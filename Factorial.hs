@@ -8,14 +8,17 @@ doubleList theList = if theList == []
 
 reverseList theList = if theList == []
                       then []
-                      (reverseList (tail theList)) ++ [(head theList)]
--- lenghs of Strings
+                      else (reverseList (tail theList)) ++ [(head theList)]
+-- lengths of Strings
 -- consume a list of words
 -- produce a list of their lengths
 lenghts theList = if theList == []
                   then []
-                  
+                  else (reverseList (tail theList)) ++[(head theList)]
 
+-- find element k in a
+-- consume a list and a number k
+-- produce the kth element
 
 
 factorial n = if n == 0
