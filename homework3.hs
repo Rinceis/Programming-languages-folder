@@ -1,4 +1,4 @@
-module A3 where
+modulea A3 where
 -- | removeAllExcept takes in a value and a list of values, goes through the list to see if there are any that don't match the first value, and if there are, skips over them when producing the new list of values
 
 removeAllExcept :: Eq a => a -> [a] -> [a]
